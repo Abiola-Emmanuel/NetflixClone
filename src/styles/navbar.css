@@ -1,0 +1,19 @@
+header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 200px;
+  height: 50px;
+}
+
+header button {
+  background-color: #e50914;
+  color: white;
+  width: 90.13px;
+  height: 40.78px;
+  border: none;
+  border-radius: 10px;
+}
