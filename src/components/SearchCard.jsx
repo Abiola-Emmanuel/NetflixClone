@@ -8,6 +8,7 @@ function SearchCard({ searchMovie }) {
         className="poster"
         src={`${IMAGE_BASE_URL}${searchMovie.backdrop_path}`}
         alt={searchMovie.name}
+        loading="lazy"
       />
       <div className="info">
         <h3>{searchMovie.title || searchMovie.name}</h3>
