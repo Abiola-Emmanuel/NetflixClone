@@ -10,6 +10,7 @@ function Banner({ movie }) {
       className="banner"
       style={{
         backgroundImage: `url("${IMAGE_BASE_URL}${movie.backdrop_path}")`,
+        loading: "lazy",
       }}
     >
       <div className="banner_contents">

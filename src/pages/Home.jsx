@@ -86,40 +86,6 @@ function Home() {
           title="Romance Movies"
           fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=10749`}
         />
-        <Row
-          title="Documentaries"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=99`}
-        />
-        <Row
-          title="Sci-Fi Movies"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=878`}
-        />
-        <Row
-          title="Animated Films"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=16`}
-          isLargeRow
-        />
-        <Row
-          title="Thrillers"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=53`}
-        />
-        <Row
-          title="Fantasy Movies"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=14`}
-        />
-        <Row
-          title="Crime Dramas"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=80`}
-        />
-        <Row
-          title="Family Favorites"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=10751`}
-          isLargeRow
-        />
-        <Row
-          title="Anime Movies"
-          fetchUrl={`${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=16&with_original_language=ja`}
-        />
         <div className="movie-search-container">
           <div className="search-input-container">
             <input
